@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  /* Remove default margin */
+}
+
+#root {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  gap: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.win-loss {
+  font-size: 2rem;
+  text-align: center;
+  color: white
+}
+
+.keyboard-div {
+  align-self: stretch;
+}
